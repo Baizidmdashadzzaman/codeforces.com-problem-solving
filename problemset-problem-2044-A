@@ -1,0 +1,16 @@
+//https://codeforces.com/problemset/problem/2044/A
+
+<?php
+$stdin = fopen("php://stdin", "r");
+ 
+$t = (int)trim(fgets($stdin));
+ 
+while ($t--) {
+ 
+    $s = trim(fgets($stdin));
+    
+    $count = $s-1;
+    
+    echo $count . "\n";
+}
+?>
